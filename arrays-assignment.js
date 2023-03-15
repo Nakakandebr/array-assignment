@@ -61,6 +61,10 @@ console.log(findit(arr5));
     
 
 // Write a JS script to sort the following string
-// let word = "sevink"
- let r=word.sort();
- console.log(r);
+let word = "sevink"
+ let r=(word)=>{
+return word .split("").sort().join("");
+ };
+
+ console.log(r("sevink"))
+ 
